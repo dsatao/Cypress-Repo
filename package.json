@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "cucumber": "^6.0.5",
+    "cypress": "^13.10.0",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinations": true,
+    "step_definitions": "cypress/e2e/cucumber-test/pages"
+  }
+}
